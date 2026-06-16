@@ -1,0 +1,812 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Où voyager en famille été 2026 : bébé, enfant, ado | Marco Vasco</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#1d252c;
+    --ink-2:#313235;
+    --muted:#656464;
+    --grey-100:#f8f8f8;
+    --grey-300:#e5e3e1;
+    --sand:#e8e6e5;
+    --line:#e5e3e1;
+    --primary:#e7004c;
+    --primary-dark:#c30040;
+    --yellow:#ffd547;
+    --yellow-dark:#e6bd2e;
+    --green:#07ad8b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{font-family:'Lato','Arial',sans-serif;color:var(--ink);background:#fff;line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3,h4{font-family:'Lato','Arial',sans-serif;font-weight:800;line-height:1.25;color:var(--ink);letter-spacing:-.005em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%;display:block}
+
+  /* ---------- HEADER ---------- */
+  header.top{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.98);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .top-inner{display:flex;align-items:center;justify-content:space-between;padding:18px 32px;max-width:1440px;margin:0 auto}
+  .logo{font-family:'Lato','Arial',sans-serif;font-size:24px;letter-spacing:.22em;font-weight:900;color:var(--ink)}
+  nav.main ul{display:flex;gap:36px;list-style:none}
+  nav.main a{font-size:13px;color:var(--ink);font-weight:700}
+  nav.main a:hover{color:var(--primary)}
+  .btn{display:inline-block;padding:12px 26px;background:var(--primary);color:#fff;font-size:14px;font-weight:700;border:1px solid var(--primary);border-radius:25px;cursor:pointer;transition:all .2s}
+  .btn:hover{background:var(--primary-dark);border-color:var(--primary-dark)}
+  .btn-outline{background:transparent;color:var(--ink);border:1px solid var(--ink);border-radius:22px;padding:11px 22px;display:inline-block;font-weight:700;font-size:13px;cursor:pointer}
+  .btn-outline:hover{background:var(--ink);color:#fff}
+
+  /* ---------- LAYOUT ---------- */
+  .article-wrap{max-width:1280px;margin:0 auto;padding:32px 32px 80px;display:grid;grid-template-columns:1fr 320px;gap:64px}
+  article{min-width:0}
+  aside.sidebar{position:sticky;top:96px;align-self:start;display:flex;flex-direction:column;gap:24px}
+
+  /* ---------- BREADCRUMB + META ---------- */
+  .crumbs{font-size:12px;color:var(--muted);margin-bottom:16px;letter-spacing:.04em}
+  .crumbs a{color:var(--muted)}
+  .crumbs a:hover{color:var(--primary)}
+  .cat-pill{display:inline-block;background:var(--primary);color:#fff;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:6px 14px;border-radius:14px;margin-bottom:20px}
+
+  /* ---------- H1 + META ROW ---------- */
+  h1.article-title{font-size:44px;font-weight:900;line-height:1.15;margin-bottom:24px;letter-spacing:-.01em}
+  .meta-row{display:flex;align-items:center;gap:20px;flex-wrap:wrap;font-size:13px;color:var(--muted);margin-bottom:32px;padding-bottom:24px;border-bottom:1px solid var(--line)}
+  .meta-row .ma{display:flex;align-items:center;gap:8px}
+  .meta-row strong{color:var(--ink);font-weight:700}
+  .author-mini{display:flex;align-items:center;gap:10px}
+  .author-mini img{width:36px;height:36px;border-radius:50%;object-fit:cover}
+  .reading{display:inline-flex;align-items:center;gap:6px;background:var(--grey-100);padding:6px 12px;border-radius:14px;color:var(--ink);font-weight:700;font-size:12px}
+  .tags{display:flex;gap:6px;flex-wrap:wrap}
+  .tag{font-size:11px;background:var(--grey-100);padding:5px 11px;border-radius:14px;color:var(--ink-2);font-weight:600}
+
+  /* ---------- COVER IMAGE ---------- */
+  .cover{position:relative;height:420px;background-size:cover;background-position:center;border-radius:12px;margin-bottom:32px;overflow:hidden}
+  .cover .caption{position:absolute;bottom:14px;right:18px;color:#fff;font-size:11px;opacity:.8;text-shadow:0 1px 4px rgba(0,0,0,.6)}
+
+  /* ---------- RECAP BOX (TLDR) ---------- */
+  .tldr{background:linear-gradient(135deg,var(--grey-100) 0%,#fff 100%);border-left:4px solid var(--primary);border-radius:8px;padding:28px 32px;margin-bottom:40px;position:relative}
+  .tldr-label{display:inline-flex;align-items:center;gap:8px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);font-weight:800;margin-bottom:14px}
+  .tldr-label::before{content:"";display:inline-block;width:18px;height:2px;background:var(--primary)}
+  .tldr h2{font-size:20px;font-weight:800;margin-bottom:14px}
+  .tldr p{font-size:14.5px;color:var(--ink-2);line-height:1.7;margin-bottom:10px}
+  .tldr ul{margin:8px 0 0 0;padding-left:18px}
+  .tldr ul li{font-size:14px;color:var(--ink-2);line-height:1.7;margin-bottom:6px}
+  .tldr ul li strong{color:var(--ink);font-weight:800}
+
+  /* ---------- SHARE BAR ---------- */
+  .share{display:flex;align-items:center;gap:12px;margin-bottom:36px;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .share-label{font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-right:6px}
+  .share a{width:34px;height:34px;border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--ink);font-weight:700;font-size:13px;transition:all .2s}
+  .share a:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .share .copy{margin-left:auto;font-size:12px;color:var(--muted);cursor:pointer}
+
+  /* ---------- SOMMAIRE (TOC) ---------- */
+  .toc{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:40px}
+  .toc-title{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--primary);font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:10px}
+  .toc-title::before{content:"☰";color:var(--primary);font-size:16px}
+  .toc ol{list-style:none;counter-reset:tc;padding:0}
+  .toc ol li{counter-increment:tc;padding:8px 0;border-bottom:1px dashed var(--grey-300)}
+  .toc ol li:last-child{border-bottom:none}
+  .toc ol li a{display:flex;align-items:baseline;gap:14px;font-size:14.5px;color:var(--ink);font-weight:700;transition:color .15s}
+  .toc ol li a::before{content:counter(tc,decimal-leading-zero);color:var(--primary);font-size:13px;font-weight:900;letter-spacing:.04em;min-width:24px}
+  .toc ol li a:hover{color:var(--primary)}
+  .toc ol li ol{padding:8px 0 0 38px;border-bottom:none}
+  .toc ol li ol li{border-bottom:none;padding:4px 0;counter-increment:none}
+  .toc ol li ol li a{font-size:13.5px;font-weight:400;color:var(--ink-2)}
+  .toc ol li ol li a::before{content:"›";color:var(--muted);font-weight:400}
+
+  /* ---------- ARTICLE BODY ---------- */
+  article h2{font-size:30px;font-weight:900;margin:48px 0 18px;padding-top:24px;letter-spacing:-.005em;scroll-margin-top:96px}
+  article h2::before{content:"";display:block;width:48px;height:3px;background:var(--primary);margin-bottom:18px}
+  article h3{font-size:22px;font-weight:800;margin:36px 0 14px;scroll-margin-top:96px}
+  article p{font-size:16px;color:var(--ink-2);line-height:1.75;margin-bottom:18px}
+  article p strong{color:var(--ink);font-weight:700}
+  article a.inline{color:var(--primary);font-weight:700;border-bottom:1px solid var(--primary)}
+  article a.inline:hover{color:var(--primary-dark)}
+  article ul{margin:0 0 22px 22px}
+  article ul li{font-size:16px;color:var(--ink-2);line-height:1.75;margin-bottom:6px}
+  article ul li::marker{color:var(--primary)}
+
+  /* ---------- DESTINATION CARD (inline in article) ---------- */
+  .dest{margin:24px 0 32px;background:var(--grey-100);border-radius:12px;overflow:hidden;display:grid;grid-template-columns:1fr 1fr}
+  .dest-img{height:100%;min-height:260px;background-size:cover;background-position:center}
+  .dest-body{padding:24px 28px}
+  .dest h3{margin-top:0;font-size:22px;display:flex;align-items:center;gap:10px}
+  .dest h3 .flag{font-size:20px}
+  .dest-tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .dest-tags span{font-size:11px;background:#fff;border:1px solid var(--line);padding:4px 10px;border-radius:14px;color:var(--ink-2);font-weight:700}
+  .dest-tags span.hot{background:var(--yellow);border-color:var(--yellow-dark);color:var(--ink)}
+  .dest p{font-size:14.5px;line-height:1.7;margin-bottom:10px}
+  .dest .why{margin-top:12px;font-size:13.5px;background:#fff;border-left:3px solid var(--primary);padding:10px 14px;border-radius:0 6px 6px 0}
+  .dest .why strong{color:var(--primary)}
+
+  /* ---------- CONVERSION CTA BLOCK ---------- */
+  .conv{margin:40px 0;background:linear-gradient(135deg,var(--ink) 0%,#2a3640 100%);border-radius:12px;padding:36px 40px;color:#fff;display:grid;grid-template-columns:1fr auto;gap:32px;align-items:center;background-image:linear-gradient(135deg,rgba(29,37,44,.92) 0%,rgba(29,37,44,.85) 100%),url('https://cms-mv.twic.pics/aws/polynesie_header_5eb5f8539e.jpeg?twic=v1/cover=1600x600');background-size:cover;background-position:center}
+  .conv h3{color:#fff;font-size:22px;font-weight:800;margin-bottom:8px;line-height:1.3}
+  .conv p{color:rgba(255,255,255,.85);font-size:14.5px;margin-bottom:0;line-height:1.55}
+  .conv .conv-actions{display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+  .conv .conv-actions .btn{background:var(--primary);border-color:var(--primary)}
+  .conv .conv-tel{font-size:13px;color:rgba(255,255,255,.85);font-weight:600}
+  .conv .conv-tel strong{display:block;font-size:18px;color:#fff;font-weight:900;letter-spacing:.02em}
+
+  /* ---------- VOYAGE GRID (inline product cards) ---------- */
+  .voy-block{margin:36px 0}
+  .voy-block .label{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--primary);font-weight:800;margin-bottom:14px}
+  .voy-block .title{font-size:20px;font-weight:800;margin-bottom:18px}
+  .voy-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .voy{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;display:flex;flex-direction:column;cursor:pointer;transition:transform .2s,box-shadow .2s}
+  .voy:hover{transform:translateY(-3px);box-shadow:0 16px 32px -10px rgba(29,37,44,.18)}
+  .voy-img{height:140px;background-size:cover;background-position:center}
+  .voy-info{padding:14px 16px 16px}
+  .voy-info h4{font-size:14px;font-weight:800;color:var(--ink);margin-bottom:6px;line-height:1.3}
+  .voy-info .route{font-size:11.5px;color:var(--muted);margin-bottom:10px;font-weight:500}
+  .voy-info .price{font-size:11px;color:var(--muted);font-weight:600}
+  .voy-info .price strong{display:block;font-size:18px;color:var(--yellow-dark);font-weight:900}
+
+  /* ---------- TABLE COMPARATIF ---------- */
+  .tbl-wrap{margin:32px 0;overflow-x:auto;border-radius:8px;border:1px solid var(--line)}
+  table.compare{width:100%;border-collapse:collapse;font-size:13.5px}
+  table.compare thead{background:var(--ink);color:#fff}
+  table.compare th{padding:14px 16px;text-align:left;font-weight:800;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+  table.compare td{padding:14px 16px;border-bottom:1px solid var(--line);color:var(--ink-2)}
+  table.compare tr:last-child td{border-bottom:none}
+  table.compare tr:nth-child(even) td{background:var(--grey-100)}
+  table.compare td strong{color:var(--ink);font-weight:800}
+  table.compare td .ok{color:var(--green);font-weight:800}
+  table.compare td .warn{color:var(--yellow-dark);font-weight:800}
+  table.compare .age{display:inline-block;background:var(--primary);color:#fff;font-size:11px;font-weight:800;padding:3px 9px;border-radius:10px}
+
+  /* ---------- FAQ ---------- */
+  .faq{margin:48px 0}
+  .faq h2{margin-top:0}
+  .faq-item{border-bottom:1px solid var(--line);padding:18px 0;cursor:pointer}
+  .faq-q{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:17px;font-weight:800;color:var(--ink)}
+  .faq-q .plus{font-size:22px;color:var(--primary);font-weight:300;transition:transform .2s}
+  .faq-a{font-size:15px;color:var(--ink-2);line-height:1.75;padding-top:12px;display:none}
+  .faq-item.open .faq-a{display:block}
+  .faq-item.open .plus{transform:rotate(45deg)}
+
+  /* ---------- AUTHOR BIO ---------- */
+  .author-bio{margin:48px 0;background:var(--grey-100);border-radius:12px;padding:32px;display:grid;grid-template-columns:140px 1fr;gap:28px;align-items:center}
+  .author-bio img{width:140px;height:140px;border-radius:50%;object-fit:cover;border:3px solid #fff}
+  .author-bio .ab-name{font-size:13px;color:var(--primary);font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+  .author-bio h3{font-size:22px;margin-bottom:8px}
+  .author-bio p{font-size:14.5px;color:var(--ink-2);line-height:1.7;margin-bottom:10px}
+  .author-bio .ab-meta{font-size:12px;color:var(--muted);display:flex;gap:18px;margin-top:8px}
+  .author-bio .ab-meta strong{color:var(--ink);font-weight:800}
+
+  /* ---------- RELATED ARTICLES ---------- */
+  .related{margin:56px 0}
+  .related h2{margin-top:0}
+  .rel-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+  .rel{cursor:pointer}
+  .rel-img{height:180px;background-size:cover;background-position:center;border-radius:8px;margin-bottom:14px;transition:transform .3s}
+  .rel:hover .rel-img{transform:scale(1.02)}
+  .rel-cat{font-size:11px;color:var(--primary);font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:6px}
+  .rel h4{font-size:16px;font-weight:800;line-height:1.35;color:var(--ink);margin-bottom:6px}
+  .rel:hover h4{color:var(--primary)}
+  .rel .rel-meta{font-size:12px;color:var(--muted)}
+
+  /* ---------- COMMENTS ---------- */
+  .comments{margin:56px 0 0;background:var(--grey-100);padding:36px;border-radius:12px}
+  .comments h2{margin-top:0;font-size:24px}
+  .comm-count{font-size:13px;color:var(--muted);margin-bottom:24px}
+  .comm-item{display:grid;grid-template-columns:48px 1fr;gap:14px;padding:18px 0;border-bottom:1px solid var(--grey-300)}
+  .comm-avatar{width:48px;height:48px;border-radius:50%;background:var(--ink);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:900;font-size:18px}
+  .comm-head{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+  .comm-name{font-weight:800;font-size:14px}
+  .comm-date{font-size:12px;color:var(--muted)}
+  .comm-body{font-size:14px;color:var(--ink-2);line-height:1.65}
+  .comm-reply{font-size:12px;color:var(--primary);font-weight:700;margin-top:6px;cursor:pointer}
+  .comm-form{margin-top:28px}
+  .comm-form textarea{width:100%;border:1px solid var(--line);border-radius:8px;padding:14px;font-family:'Lato','Arial',sans-serif;font-size:14px;resize:vertical;min-height:90px}
+  .comm-form .row{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:12px}
+  .comm-form input{padding:12px 14px;border:1px solid var(--line);border-radius:8px;font-family:'Lato','Arial',sans-serif;font-size:14px}
+  .comm-form .btn{margin-top:14px}
+
+  /* ---------- SIDEBAR ---------- */
+  .side-card{background:#fff;border:1px solid var(--line);border-radius:8px;padding:24px}
+  .side-card.dark{background:var(--ink);color:#fff;border-color:var(--ink)}
+  .side-card.dark h4{color:#fff}
+  .side-card h4{font-size:15px;font-weight:900;margin-bottom:14px;text-transform:uppercase;letter-spacing:.04em}
+  .side-card p{font-size:13.5px;color:var(--ink-2);line-height:1.55;margin-bottom:14px}
+  .side-card.dark p{color:rgba(255,255,255,.85)}
+  .side-card .side-tel{font-size:20px;font-weight:900;margin-bottom:6px;color:inherit}
+  .side-card .side-hours{font-size:12px;color:var(--muted);margin-bottom:14px}
+  .side-card.dark .side-hours{color:rgba(255,255,255,.6)}
+  .side-card .btn{width:100%;text-align:center}
+  .side-newsletter input{width:100%;border:1px solid var(--line);border-radius:25px;padding:11px 16px;font-family:'Lato','Arial',sans-serif;font-size:13px;margin-bottom:10px}
+
+  /* ---------- STICKY BOTTOM BAR ---------- */
+  .sticky-bar{position:fixed;bottom:0;left:0;right:0;z-index:60;background:var(--sand);border-top:1px solid var(--line);box-shadow:0 -4px 16px -8px rgba(29,37,44,.12);padding:14px 0}
+  .sb-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;max-width:1280px;margin:0 auto;padding:0 32px}
+  .sb-msg{font-size:16px;color:var(--ink);font-weight:700;line-height:1.3;max-width:480px}
+  .sb-actions{display:flex;align-items:center;gap:18px}
+  .sb-phone{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--ink)}
+  .sb-phone .ico{width:42px;height:42px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--primary);font-size:20px;border:1px solid var(--line)}
+  .sb-phone strong{display:block;font-size:18px;font-weight:900;color:var(--ink)}
+  .sb-phone small{display:block;font-size:11px;color:var(--muted)}
+  body{padding-bottom:84px}
+
+  footer.foot{background:var(--ink);color:#cfd6dd;padding:48px 0 32px;font-size:13px}
+  .foot-inner{max-width:1280px;margin:0 auto;padding:0 32px}
+  .foot-bottom{padding-top:24px;border-top:1px solid rgba(255,255,255,.12);text-align:center;font-size:12px;opacity:.6}
+
+  @media (max-width:980px){
+    .article-wrap{grid-template-columns:1fr}
+    aside.sidebar{position:static}
+    .dest{grid-template-columns:1fr}
+    .conv{grid-template-columns:1fr}
+    .conv .conv-actions{align-items:flex-start}
+    .voy-grid,.rel-grid{grid-template-columns:1fr 1fr}
+    .author-bio{grid-template-columns:1fr;text-align:center}
+    .author-bio img{margin:0 auto}
+    h1.article-title{font-size:30px}
+    nav.main{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <a href="#" class="logo">MARCO VASCO</a>
+    <nav class="main">
+      <ul>
+        <li><a href="#">Destinations</a></li>
+        <li><a href="#">Où partir ?</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Avis</a></li>
+      </ul>
+    </nav>
+    <a href="#cta" class="btn">Créer mon voyage</a>
+  </div>
+</header>
+
+<div class="article-wrap">
+
+  <article>
+    <!-- META TOP -->
+    <div class="crumbs">
+      <a href="#">Accueil</a> &nbsp;/&nbsp; <a href="#">Blog</a> &nbsp;/&nbsp; <a href="#">Actualités</a> &nbsp;/&nbsp; Voyage en famille été 2026
+    </div>
+    <span class="cat-pill">Voyage en famille</span>
+
+    <h1 class="article-title">Où voyager en famille cet été 2026 : bébé, enfant, ado ?</h1>
+
+    <div class="meta-row">
+      <div class="author-mini">
+        <img src="https://cms-mv.twic.pics/aws/Maelle_a7ac0599_a827_308c_c537_5d65ff79ca90_1a35da8064.jpeg?twic=v1/cover=120x120" alt="Roselie">
+        <span>Par <strong>Roselie</strong>, créatrice de voyages</span>
+      </div>
+      <div class="ma">Publié le <strong>14 avril 2026</strong></div>
+      <div class="ma">Mis à jour le <strong>29 avril 2026</strong></div>
+      <span class="reading">⏱ 8 min de lecture</span>
+      <div class="tags">
+        <span class="tag">#famille</span>
+        <span class="tag">#été 2026</span>
+        <span class="tag">#bébé</span>
+        <span class="tag">#enfant</span>
+        <span class="tag">#ado</span>
+      </div>
+    </div>
+
+    <!-- COVER -->
+    <div class="cover" style="background-image:url('https://cms-mv.twic.pics/aws/Design_sans_titre_93af2d789e.jpg?twic=v1/cover=1600x640')">
+      <div class="caption">Famille en voyage été 2026 © Marco Vasco</div>
+    </div>
+
+    <!-- TLDR / Encadre recap -->
+    <div class="tldr">
+      <div class="tldr-label">L'essentiel à retenir</div>
+      <h2>Le récap en 60 secondes</h2>
+      <p>Cet été 2026, choisissez votre destination selon <strong>l'âge de vos enfants</strong>. Trois profils, six destinations testées et approuvées par les familles que nous accompagnons.</p>
+      <ul>
+        <li><strong>Avec un bébé (0-2 ans)&nbsp;:</strong> privilégiez les vols courts à moyens, les climats doux et les hébergements adaptés. Direction les <strong>Seychelles</strong> ou l'<strong>Italie</strong>.</li>
+        <li><strong>Avec un enfant (3-11 ans)&nbsp;:</strong> misez sur l'aventure douce et la nature. L'<strong>Afrique du Sud</strong> et le <strong>Costa Rica</strong> tiennent la promesse du grand voyage sans excès.</li>
+        <li><strong>Avec un ado (12-17 ans)&nbsp;:</strong> place aux destinations qui marquent. Les <strong>États-Unis</strong> et le <strong>Japon</strong> répondent à leur soif de découverte et de pop culture.</li>
+        <li><strong>Budget moyen&nbsp;:</strong> de 2 500 € à 6 500 € par personne selon la destination, en formule sur mesure 10 à 14 nuits.</li>
+        <li><strong>Saison idéale&nbsp;:</strong> juillet-août pour l'hémisphère Nord, juin-septembre pour l'Afrique du Sud (hiver austral, climat sec).</li>
+      </ul>
+    </div>
+
+    <!-- SHARE -->
+    <div class="share">
+      <span class="share-label">Partager</span>
+      <a title="Facebook">f</a>
+      <a title="X / Twitter">𝕏</a>
+      <a title="LinkedIn">in</a>
+      <a title="Pinterest">P</a>
+      <a title="WhatsApp">✆</a>
+      <a title="Email">@</a>
+      <span class="copy">↗ Copier le lien</span>
+    </div>
+
+    <!-- TABLE OF CONTENTS -->
+    <nav class="toc" aria-label="Sommaire">
+      <div class="toc-title">Sommaire de l'article</div>
+      <ol>
+        <li>
+          <a href="#bebe">Où partir avec un bébé en été ?</a>
+          <ol>
+            <li><a href="#seychelles">Les Seychelles, le lagon en mode cocon</a></li>
+            <li><a href="#italie">L'Italie, l'évidence du proche</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#enfant">Où partir avec un enfant en été ?</a>
+          <ol>
+            <li><a href="#afrique-sud">L'Afrique du Sud, premier safari</a></li>
+            <li><a href="#costa-rica">Le Costa Rica, la nature à hauteur d'enfant</a></li>
+          </ol>
+        </li>
+        <li>
+          <a href="#ado">Où partir avec un adolescent en été ?</a>
+          <ol>
+            <li><a href="#etats-unis">Les États-Unis, le road-trip qui marque</a></li>
+            <li><a href="#japon">Le Japon, l'effet wahou garanti</a></li>
+          </ol>
+        </li>
+        <li><a href="#tableau">Tableau comparatif des 6 destinations</a></li>
+        <li><a href="#faq">FAQ&nbsp;: vos questions sur le voyage en famille</a></li>
+      </ol>
+    </nav>
+
+    <!-- INTRO -->
+    <p>Voyager en famille, c'est avant tout une question d'équilibre. Entre le confort des petits, la curiosité des plus grands et le rythme que les parents peuvent réellement tenir, le choix de la destination conditionne la réussite des vacances. Chaque été, nos créateurs de voyages reçoivent les mêmes questions&nbsp;: <em>où partir avec un bébé&nbsp;? Mon enfant de 8 ans peut-il faire un safari&nbsp;? Comment occuper un ado en voyage&nbsp;?</em></p>
+    <p>Pour vous aider à trancher, voici notre sélection de <strong>6 destinations idéales pour l'été 2026</strong>, classées par tranche d'âge et pensées pour offrir à chaque famille le bon dosage entre dépaysement, confort et expériences mémorables.</p>
+
+    <!-- ========== BEBE ========== -->
+    <h2 id="bebe">Où partir avec un bébé en été&nbsp;?</h2>
+    <p>Avec un nourrisson ou un enfant de moins de 2 ans, deux critères priment&nbsp;: <strong>la durée du vol</strong> et la <strong>douceur du climat</strong>. On évite les destinations à risque sanitaire élevé (paludisme, eau non potable) et on privilégie des hébergements offrant un vrai confort logistique&nbsp;: lit bébé sur demande, room service, piscine sécurisée.</p>
+
+    <div class="dest" id="seychelles">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/vi_un_mariage_polynesien_0_bbcf52a937.jpeg?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span class="hot">★ Coup de cœur</span>
+          <span>10h de vol</span>
+          <span>Décalage faible</span>
+          <span>Climat 28&nbsp;°C</span>
+        </div>
+        <h3><span class="flag">🇸🇨</span> Les Seychelles, le lagon en mode cocon</h3>
+        <p>Les Seychelles cochent toutes les cases du premier voyage long-courrier avec bébé&nbsp;: aucun vaccin obligatoire, eau du robinet potable dans les hôtels, infrastructure médicale de qualité et un décalage horaire de seulement +2h. Les plages de <strong>Mahé</strong> et <strong>Praslin</strong> descendent en pente douce, parfaites pour les premiers pas dans l'eau.</p>
+        <p>Côté hébergement, plusieurs hôtels familiaux proposent des kids clubs dès 6 mois et des baby-sitters francophones sur demande.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> le rythme apaisé, les courtes distances entre les îles, et l'absence totale de stress sanitaire.</div>
+      </div>
+    </div>
+
+    <div class="dest" id="italie">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/Design_sans_titre_93af2d789e.jpg?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span>2h de vol</span>
+          <span>Zéro décalage</span>
+          <span>Climat 26-30&nbsp;°C</span>
+        </div>
+        <h3><span class="flag">🇮🇹</span> L'Italie, l'évidence du proche</h3>
+        <p>Avec un tout-petit, l'Italie reste l'évidence&nbsp;: vol court, pas de décalage horaire, infrastructure médicale européenne et une véritable culture de l'accueil des enfants. La <strong>Toscane</strong> et les <strong>Pouilles</strong> se prêtent particulièrement bien aux séjours en agriturismo&nbsp;: vastes propriétés viticoles, piscines familiales, repas servis dehors.</p>
+        <p>La <strong>côte amalfitaine</strong> demande plus de logistique avec une poussette, mais reste accessible si l'on choisit Sorrente comme camp de base.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> on peut partir en juin ou septembre pour éviter la canicule, et même un bébé profite des paysages et des saveurs.</div>
+      </div>
+    </div>
+
+    <!-- CONVERSION BLOCK 1 -->
+    <div class="conv">
+      <div>
+        <h3>Envie de partir avec votre bébé&nbsp;?</h3>
+        <p>Nos spécialistes famille construisent votre itinéraire sur mesure aux Seychelles ou en Italie, avec hébergements adaptés et logistique simplifiée.</p>
+      </div>
+      <div class="conv-actions">
+        <a class="btn">Demander un devis gratuit</a>
+        <div class="conv-tel">Ou appelez-nous&nbsp;: <strong>01 76 64 74 45</strong></div>
+      </div>
+    </div>
+
+    <!-- ========== ENFANT ========== -->
+    <h2 id="enfant">Où partir avec un enfant en été&nbsp;?</h2>
+    <p>Entre 3 et 11 ans, l'enfant devient un vrai compagnon de voyage&nbsp;: il marche, il s'émerveille, il pose mille questions. C'est l'âge idéal pour les premières grandes aventures. On peut s'autoriser des vols plus longs, à condition de prévoir des étapes assez courtes (3 à 4 nuits par site maximum) et de varier les expériences.</p>
+
+    <div class="dest" id="afrique-sud">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/vi_iles_marquises_un_paradis_au_bout_du_monde_8ef8204ccd.jpeg?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span class="hot">★ Tendance 2026</span>
+          <span>11h de vol</span>
+          <span>Décalage 0h en été</span>
+          <span>Hiver austral</span>
+        </div>
+        <h3><span class="flag">🇿🇦</span> L'Afrique du Sud, le premier safari</h3>
+        <p>L'Afrique du Sud est <strong>la</strong> destination idéale pour un premier safari en famille. De juin à septembre, c'est l'hiver austral&nbsp;: temps sec, animaux concentrés autour des points d'eau, zéro problème de moustiques sur les lodges hors zone palustre comme la réserve de <strong>Madikwe</strong> ou les parcs privés du <strong>Eastern Cape</strong>.</p>
+        <p>Le combiné Cape Town + Garden Route + safari fonctionne particulièrement bien pour des enfants de 6 ans et plus. Les lodges familiaux proposent des programmes adaptés (mini-rangers, ateliers tracking, briefings sécurité), et les distances en avion intérieur restent raisonnables.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> un dépaysement total sans le décalage horaire ni les contraintes sanitaires du paludisme.</div>
+      </div>
+    </div>
+
+    <div class="dest" id="costa-rica">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/vi_merveilles_sous_marines_a_tahiti_et_ses_iles_774eb9c991.jpeg?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span>12h de vol</span>
+          <span>Décalage -8h</span>
+          <span>Saison verte</span>
+        </div>
+        <h3><span class="flag">🇨🇷</span> Le Costa Rica, la nature à hauteur d'enfant</h3>
+        <p>Volcans, jungles, plages, faune partout&nbsp;: le Costa Rica est un parc d'aventures grandeur nature. Les enfants adorent l'observation des paresseux, des singes hurleurs et des grenouilles colorées. Les distances restent modérées (3 à 5 heures de route entre les étapes principales), et le pays est l'un des plus sûrs et stables d'Amérique latine.</p>
+        <p>L'été correspond à la "saison verte" (averses tropicales courtes en fin d'après-midi), ce qui rend la nature particulièrement luxuriante et fait chuter les tarifs hôteliers.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> chaque journée mélange aventure, faune et détente. Aucun ennui possible pour un enfant curieux.</div>
+      </div>
+    </div>
+
+    <!-- VOYAGE GRID 1 (conversion inline) -->
+    <div class="voy-block">
+      <div class="label">Nos itinéraires famille recommandés</div>
+      <div class="title">3 voyages sur mesure prêts à personnaliser</div>
+      <div class="voy-grid">
+        <a class="voy">
+          <div class="voy-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_cth_r1_cfe37bcf3d.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="voy-info">
+            <h4>Safari en famille Afrique du Sud</h4>
+            <div class="route">Cape Town · Garden Route · Madikwe</div>
+            <div class="price">À partir de <strong>3 950 €</strong></div>
+          </div>
+        </a>
+        <a class="voy">
+          <div class="voy-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_cth_r2_df82731f84.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="voy-info">
+            <h4>Costa Rica nature et plage</h4>
+            <div class="route">Arenal · Monteverde · Manuel Antonio</div>
+            <div class="price">À partir de <strong>2 890 €</strong></div>
+          </div>
+        </a>
+        <a class="voy">
+          <div class="voy-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_cth_r3_0d6b60a76a.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="voy-info">
+            <h4>Seychelles cocon en famille</h4>
+            <div class="route">Mahé · Praslin · La Digue</div>
+            <div class="price">À partir de <strong>3 200 €</strong></div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <!-- ========== ADO ========== -->
+    <h2 id="ado">Où partir avec un adolescent en été&nbsp;?</h2>
+    <p>L'adolescent veut voir le monde "en grand". Adieu les kids clubs, place aux destinations qui impressionnent par leur architecture, leur culture pop, leurs paysages spectaculaires ou la possibilité de partager du vécu. C'est aussi l'âge où le voyage devient un vrai vecteur d'apprentissage&nbsp;: histoire, langue, code social.</p>
+
+    <div class="dest" id="etats-unis">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_cth_r4_8bc179f6b0.jpeg?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span>11h de vol</span>
+          <span>ESTA requis</span>
+          <span class="hot">★ Inégalable</span>
+        </div>
+        <h3><span class="flag">🇺🇸</span> Les États-Unis, le road-trip qui marque</h3>
+        <p>Pour un ado, l'Ouest américain reste l'expérience étalon. Le combiné <strong>Las Vegas, Grand Canyon, Monument Valley, Bryce Canyon, Zion</strong> et finir par <strong>Los Angeles</strong> ou <strong>San Francisco</strong> mélange paysages mythiques, parcs nationaux et culture pop. On peut aussi opter pour la côte Est&nbsp;: <strong>New York, Boston, Washington</strong>, plus dense culturellement.</p>
+        <p>Le road-trip permet à l'ado de devenir co-pilote, de choisir des étapes, de partager des soirées drive-in ou des concerts. Compter 14 nuits pour vraiment savourer l'itinéraire.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> les ados reviennent grandis. L'expérience est aussi formatrice qu'épique.</div>
+      </div>
+    </div>
+
+    <div class="dest" id="japon">
+      <div class="dest-img" style="background-image:url('https://cms-mv.twic.pics/aws/VI_Eloge_de_la_culture_Polynesienne_ced8fd6b26.png?twic=v1/cover=900x600')"></div>
+      <div class="dest-body">
+        <div class="dest-tags">
+          <span class="hot">★ Effet wahou</span>
+          <span>13h de vol</span>
+          <span>Décalage +7h</span>
+        </div>
+        <h3><span class="flag">🇯🇵</span> Le Japon, l'effet wahou garanti</h3>
+        <p>Le Japon est sans doute la destination qui impressionne le plus les adolescents&nbsp;: <strong>Tokyo</strong> et ses quartiers Shibuya / Akihabara / Harajuku, l'expérience du Shinkansen, les temples de <strong>Kyoto</strong>, les daims de <strong>Nara</strong>, le calme du <strong>mont Koya</strong>… L'attrait de la culture pop (manga, jeux vidéo, mode, anime) en fait une destination ultra désirable pour les 12-17 ans.</p>
+        <p>Le pays est par ailleurs l'un des plus sûrs et propres au monde. Compter 12 à 14 nuits pour combiner Tokyo, Hakone, Kyoto, Hiroshima et Osaka.</p>
+        <div class="why"><strong>Pourquoi on aime&nbsp;:</strong> aucune autre destination ne séduit autant les ados, tout en cultivant patience, respect et émerveillement.</div>
+      </div>
+    </div>
+
+    <!-- CONVERSION BLOCK 2 -->
+    <div class="conv">
+      <div>
+        <h3>Prêt à réserver votre voyage en famille 2026&nbsp;?</h3>
+        <p>Un créateur de voyage spécialisé famille vous rappelle sous 24h pour construire un itinéraire à votre image. Aucun engagement.</p>
+      </div>
+      <div class="conv-actions">
+        <a class="btn">Être rappelé gratuitement</a>
+        <div class="conv-tel"><strong>01 76 64 74 45</strong>Lun-Ven 9h-19h</div>
+      </div>
+    </div>
+
+    <!-- TABLEAU COMPARATIF -->
+    <h2 id="tableau">Tableau comparatif des 6 destinations</h2>
+    <p>En un coup d'œil, retrouvez les caractéristiques clés des 6 destinations pour faire votre choix selon l'âge de vos enfants, votre budget et votre tolérance au vol.</p>
+
+    <div class="tbl-wrap">
+      <table class="compare">
+        <thead>
+          <tr>
+            <th>Destination</th>
+            <th>Âge idéal</th>
+            <th>Vol depuis Paris</th>
+            <th>Décalage</th>
+            <th>Saison été</th>
+            <th>Budget /pers.</th>
+            <th>Vaccins</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Seychelles</strong></td>
+            <td><span class="age">0-5 ans</span></td>
+            <td>10h</td>
+            <td>+2h</td>
+            <td><span class="ok">Idéal</span></td>
+            <td>3 200 €</td>
+            <td>Aucun obligatoire</td>
+          </tr>
+          <tr>
+            <td><strong>Italie</strong></td>
+            <td><span class="age">0-12 ans</span></td>
+            <td>2h</td>
+            <td>0h</td>
+            <td><span class="warn">Chaud en août</span></td>
+            <td>2 500 €</td>
+            <td>Aucun</td>
+          </tr>
+          <tr>
+            <td><strong>Afrique du Sud</strong></td>
+            <td><span class="age">6-17 ans</span></td>
+            <td>11h</td>
+            <td>0h</td>
+            <td><span class="ok">Hiver austral, sec</span></td>
+            <td>3 950 €</td>
+            <td>Aucun obligatoire</td>
+          </tr>
+          <tr>
+            <td><strong>Costa Rica</strong></td>
+            <td><span class="age">5-15 ans</span></td>
+            <td>12h</td>
+            <td>-8h</td>
+            <td><span class="warn">Saison verte</span></td>
+            <td>2 890 €</td>
+            <td>Universels à jour</td>
+          </tr>
+          <tr>
+            <td><strong>États-Unis</strong></td>
+            <td><span class="age">10-17 ans</span></td>
+            <td>11h</td>
+            <td>-9h</td>
+            <td><span class="ok">Idéal</span></td>
+            <td>4 500 €</td>
+            <td>ESTA + universels</td>
+          </tr>
+          <tr>
+            <td><strong>Japon</strong></td>
+            <td><span class="age">12-17 ans</span></td>
+            <td>13h</td>
+            <td>+7h</td>
+            <td><span class="warn">Chaud et humide</span></td>
+            <td>4 850 €</td>
+            <td>Universels à jour</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="font-size:12px;color:var(--muted);margin-top:-12px">* Budget indicatif pour 10 à 14 nuits en formule sur mesure, hors vols intérieurs et activités spécifiques. Tarifs basse / moyenne saison.</p>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <h2>FAQ&nbsp;: vos questions sur le voyage en famille</h2>
+      <div class="faq-item open">
+        <div class="faq-q">À partir de quel âge peut-on faire un long-courrier avec un bébé&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Dès l'âge de 3 mois, la plupart des compagnies aériennes acceptent les nourrissons en avion. Pour un long-courrier confortable, attendre 6 mois est cependant préférable&nbsp;: le bébé tient mieux assis, prend le biberon facilement et supporte mieux les variations de pression.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Quels vaccins prévoir pour un voyage en famille en 2026&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Les vaccins universels (DTP, ROR, coqueluche) doivent être à jour pour toute la famille. Selon la destination, des vaccins complémentaires comme l'hépatite A, la fièvre typhoïde ou la fièvre jaune peuvent être recommandés. Nos spécialistes vous orientent vers un centre de vaccinations internationales en amont du départ.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Quel budget moyen prévoir pour un voyage en famille en 2026&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Pour une famille de 4 personnes en formule sur mesure, comptez entre 10 000 € et 18 000 € selon la destination, la durée et le standing des hébergements. L'Italie reste l'option la plus accessible, le Japon et les États-Unis se positionnent dans le haut de fourchette.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Faut-il une assurance voyage spéciale pour partir avec ses enfants&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Oui, une assurance multirisque famille est vivement recommandée. Elle couvre l'annulation, l'assistance rapatriement, les frais médicaux et le bagage. Vérifiez que les enfants sont bien intégrés au contrat, parfois gratuitement.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Comment éviter le décalage horaire avec des enfants&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Décalez progressivement les horaires de coucher 3 à 4 jours avant le départ, exposez les enfants à la lumière naturelle dès l'arrivée et hydratez-les bien pendant le vol. Pour un long-courrier vers l'ouest, préférez les vols qui arrivent le soir local.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">Quand réserver son voyage en famille pour l'été 2026&nbsp;? <span class="plus">+</span></div>
+        <div class="faq-a">Idéalement 6 à 9 mois à l'avance, soit dès l'automne précédent. Les vols famille et les hébergements familiaux partent vite sur juillet-août, particulièrement pour le Japon, les Seychelles et les États-Unis.</div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <div class="conv">
+      <div>
+        <h3>Construisons ensemble votre voyage famille 2026</h3>
+        <p>Un créateur dédié, un itinéraire 100% personnalisé, et une assistance 7j/7 pendant votre séjour.</p>
+      </div>
+      <div class="conv-actions">
+        <a class="btn">Démarrer mon projet</a>
+        <div class="conv-tel"><strong>01 76 64 74 45</strong>Devis sous 24h</div>
+      </div>
+    </div>
+
+    <!-- AUTHOR BIO -->
+    <section class="author-bio">
+      <img src="https://cms-mv.twic.pics/aws/Maelle_a7ac0599_a827_308c_c537_5d65ff79ca90_1a35da8064.jpeg?twic=v1/cover=300x300" alt="Roselie">
+      <div>
+        <div class="ab-name">Par Roselie</div>
+        <h3>Créatrice de voyages, spécialiste famille</h3>
+        <p>Roselie accompagne les familles Marco Vasco depuis plus de 7 ans. Mère de deux enfants, elle a personnellement testé plus de 30 destinations en famille et conçoit chaque itinéraire en pensant aux contraintes réelles du quotidien&nbsp;: rythme, repas, sommeil, activités adaptées par âge.</p>
+        <p>Ses destinations de cœur&nbsp;: l'Afrique du Sud, le Costa Rica et les Seychelles.</p>
+        <div class="ab-meta">
+          <div><strong>320</strong> familles accompagnées</div>
+          <div><strong>32</strong> pays explorés</div>
+          <div><strong>★ 4.9/5</strong> sur 184 avis</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RELATED ARTICLES -->
+    <section class="related">
+      <h2>Articles similaires</h2>
+      <div class="rel-grid">
+        <a class="rel">
+          <div class="rel-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_sejour_polynesie_77cfd956c5.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="rel-cat">Voyage famille</div>
+          <h4>Top 10 des destinations sûres en 2026 pour partir en famille</h4>
+          <div class="rel-meta">12 mars 2026 · 6 min</div>
+        </a>
+        <a class="rel">
+          <div class="rel-img" style="background-image:url('https://cms-mv.twic.pics/aws/polynesia_polynesie_096d28d97f.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="rel-cat">Conseils pratiques</div>
+          <h4>Voyager avec un bébé&nbsp;: la check-list complète</h4>
+          <div class="rel-meta">28 février 2026 · 8 min</div>
+        </a>
+        <a class="rel">
+          <div class="rel-img" style="background-image:url('https://cms-mv.twic.pics/aws/vi_un_mariage_polynesien_0_bbcf52a937.jpeg?twic=v1/cover=600x400')"></div>
+          <div class="rel-cat">Inspiration</div>
+          <h4>Safari en Afrique&nbsp;: à quel âge emmener ses enfants&nbsp;?</h4>
+          <div class="rel-meta">5 février 2026 · 7 min</div>
+        </a>
+      </div>
+    </section>
+
+    <!-- COMMENTS -->
+    <section class="comments">
+      <h2>Laisser un commentaire</h2>
+      <div class="comm-count">12 commentaires</div>
+
+      <div class="comm-item">
+        <div class="comm-avatar">CL</div>
+        <div>
+          <div class="comm-head">
+            <span class="comm-name">Claire L.</span>
+            <span class="comm-date">3 mai 2026</span>
+          </div>
+          <div class="comm-body">Article hyper utile&nbsp;! Nous partons en Afrique du Sud cet été avec nos deux enfants de 7 et 10 ans, et Roselie nous a vraiment guidés sur le choix des lodges. Hâte d'y être&nbsp;!</div>
+          <div class="comm-reply">↩ Répondre</div>
+        </div>
+      </div>
+
+      <div class="comm-item">
+        <div class="comm-avatar">TM</div>
+        <div>
+          <div class="comm-head">
+            <span class="comm-name">Thomas M.</span>
+            <span class="comm-date">28 avril 2026</span>
+          </div>
+          <div class="comm-body">Le Japon avec une ado de 14 ans&nbsp;: validé. Elle en parle encore 6 mois après, et c'est vraiment LA destination qui marque à cet âge. Merci pour les recommandations d'itinéraire.</div>
+          <div class="comm-reply">↩ Répondre</div>
+        </div>
+      </div>
+
+      <div class="comm-item">
+        <div class="comm-avatar">SD</div>
+        <div>
+          <div class="comm-head">
+            <span class="comm-name">Sophie D.</span>
+            <span class="comm-date">22 avril 2026</span>
+          </div>
+          <div class="comm-body">Question&nbsp;: à quel âge minimum les enfants apprécient vraiment un safari&nbsp;? On hésite avec notre fils de 5 ans.</div>
+          <div class="comm-reply">↩ Répondre</div>
+        </div>
+      </div>
+
+      <div class="comm-form">
+        <div class="row">
+          <input placeholder="Votre nom *">
+          <input placeholder="Votre email *">
+        </div>
+        <textarea placeholder="Votre commentaire..."></textarea>
+        <a class="btn">Publier mon commentaire</a>
+      </div>
+    </section>
+
+  </article>
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+
+    <div class="side-card dark">
+      <h4>Votre voyage sur mesure</h4>
+      <p>Un créateur de voyages dédié construit votre itinéraire selon vos envies et l'âge de vos enfants.</p>
+      <div class="side-tel">01 76 64 74 45</div>
+      <div class="side-hours">Lun-Ven 9h-19h · Sam 10h-19h</div>
+      <a class="btn">Demander un devis</a>
+    </div>
+
+    <div class="side-card">
+      <h4>Top destinations famille 2026</h4>
+      <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:10px">
+        <li><a style="display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--ink)"><span>🇿🇦 Afrique du Sud</span><span style="color:var(--primary)">→</span></a></li>
+        <li><a style="display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--ink)"><span>🇨🇷 Costa Rica</span><span style="color:var(--primary)">→</span></a></li>
+        <li><a style="display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--ink)"><span>🇯🇵 Japon</span><span style="color:var(--primary)">→</span></a></li>
+        <li><a style="display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--ink)"><span>🇸🇨 Seychelles</span><span style="color:var(--primary)">→</span></a></li>
+        <li><a style="display:flex;justify-content:space-between;font-size:13.5px;font-weight:700;color:var(--ink)"><span>🇺🇸 États-Unis</span><span style="color:var(--primary)">→</span></a></li>
+      </ul>
+    </div>
+
+    <div class="side-card side-newsletter">
+      <h4>Newsletter Marco Vasco</h4>
+      <p>Inspirations, bons plans et nouvelles destinations chaque mois.</p>
+      <input placeholder="Votre email">
+      <a class="btn">Je m'inscris</a>
+    </div>
+
+    <div class="side-card">
+      <h4>Avis voyageurs</h4>
+      <div style="font-size:32px;font-weight:900;color:var(--ink);line-height:1">5.0<span style="font-size:14px;color:var(--muted);font-weight:600">/5</span></div>
+      <div style="color:var(--yellow-dark);letter-spacing:2px;font-size:16px;margin:6px 0">★★★★★</div>
+      <p style="font-size:12.5px;color:var(--muted);margin-top:6px">Note moyenne sur <strong style="color:var(--ink)">200 000+</strong> voyageurs Avis Vérifiés.</p>
+    </div>
+
+  </aside>
+
+</div>
+
+<!-- STICKY BOTTOM BAR -->
+<div class="sticky-bar">
+  <div class="sb-inner">
+    <div class="sb-msg">Faites créer votre voyage en famille été 2026 par un spécialiste</div>
+    <div class="sb-actions">
+      <a href="tel:+33176647445" class="sb-phone">
+        <span class="ico">✆</span>
+        <span>
+          <strong>01 76 64 74 45</strong>
+          <small>Lun-Ven 9h-19h · Sam 10h-19h</small>
+        </span>
+      </a>
+      <a href="#" class="btn">Créer mon voyage sur mesure</a>
+    </div>
+  </div>
+</div>
+
+<footer class="foot">
+  <div class="foot-inner">
+    <div class="foot-bottom">© 2026 Marco Vasco · Maquette de retravail blog · Tous droits réservés</div>
+  </div>
+</footer>
+
+<script>
+  document.querySelectorAll('.faq-item').forEach(it=>{
+    it.querySelector('.faq-q').addEventListener('click',()=>it.classList.toggle('open'));
+  });
+  // Smooth scroll TOC
+  document.querySelectorAll('.toc a[href^="#"]').forEach(a=>{
+    a.addEventListener('click',e=>{
+      const id = a.getAttribute('href').slice(1);
+      const el = document.getElementById(id);
+      if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth',block:'start'})}
+    });
+  });
+</script>
+
+</body>
+</html>
